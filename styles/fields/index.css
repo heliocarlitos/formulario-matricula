@@ -21,7 +21,7 @@ select:focus,
 textarea:focus {
   outline: .25rem solid var(--surface-secondary);
   border: .125rem solid var(--stroke-highlight);
-  outline-offset: .1px;
+  outline-offset: .1px;  /*configurando assim pensando em navegadores cuja borda nao aparece*/
 }
 /*configurando o input date para que o icone de calendario apareça em diferentes navegadores*/
 input[type="date"] {
@@ -43,6 +43,7 @@ input[type="date"] {
     }
 }
 
+/*inserindo um icone de select no lugar do que vem por padrao*/
 select {
     background: url(../../assets/icons/arrow-down-01.svg) 
     no-repeat calc(100% - 1rem);
