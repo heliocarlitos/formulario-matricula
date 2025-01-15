@@ -79,7 +79,7 @@ input {
     &[required] + .error {
         display: flex;
         align-items: center;
-        gap: .25rem;
+        gap: .5rem;
         font: var(--text-sm);
         color: var(--semantic-error);
         margin-top: .25rem;

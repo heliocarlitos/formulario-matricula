@@ -27,3 +27,11 @@ button {
     }
   }
 }
+
+@media (max-width: 768px) {
+  button {
+    &.btn-secondary {
+      margin-left: initial;
+    }
+  }
+}

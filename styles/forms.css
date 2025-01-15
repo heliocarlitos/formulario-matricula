@@ -24,3 +24,14 @@ fieldset + fieldset {
     margin-top: 3rem;
     gap: 1rem;
 }
+
+@media (max-width: 768px) {
+    fieldset {
+        gap: 1.25rem;
+    }
+
+    .actions-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+}

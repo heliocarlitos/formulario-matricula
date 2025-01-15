@@ -48,3 +48,57 @@ aside {
         }
     }
 }
+
+@media (max-width: 768px) {
+
+    #app {
+        grid-template-columns: 1fr;
+        overflow-y: auto;
+    }
+
+    main {
+        padding: 1.5rem;
+        overflow: initial;
+
+        & .main-container {
+            /* max-width: 19.5rem; */
+            margin-left: initial;
+            margin-inline: auto;
+        }
+
+        & h1 {
+            font: 600 1.5rem/1.25 var(--font-family);
+            margin-bottom: .5rem;
+            white-space: nowrap;
+        }
+    }
+
+    aside {
+        order: -1;
+        padding: 4rem 1.5rem 1.5rem 1.5rem; 
+
+        & .aside-container {
+
+            & > header {
+                text-align: center;
+            }
+
+            margin-inline: auto;
+    
+            & > img {
+                margin-top: .5rem;
+            }
+        }
+    
+
+        & h2 {
+            display: none;
+        }
+
+        & p {
+            display: none;
+        }
+    }
+}
+
+
