@@ -13,6 +13,6 @@ Nosso objetivo principal foi customizar inputs desafiadores, como botões de rá
 
 Um dos desafios adicionais foi desenvolver a responsividade do projeto, implementando conceitos como media queries para garantir uma experiência otimizada em dispositivos móveis.
 </p>
-<p>Você pode testar o projeto acessando o link abaixo:<br> <a href="https://form-matricula-grid2109.netlify.app/" target="_blank" rel="noopener noreferrer">Link do Projeto</a></p>
+<p>Você pode testar o projeto acessando o link abaixo:<br> <a href="https://form-matricula-grid2109.netlify.app/" target="_blank" rel="noopener noreferrer">🔗Link do Projeto</a></p>
 
 ![Screenshot 2025-01-15 190301](https://github.com/user-attachments/assets/68dc7034-0ab9-45f9-8e93-80af6ad122ca)
