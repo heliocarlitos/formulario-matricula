@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-main {
+section {
     overflow: auto;
     padding: 4rem;
 
@@ -15,11 +15,28 @@ main {
         margin-left: auto;
     }
 
+    & .back figure {
+        display: flex;
+    }
+
     & .back {
         display: flex;
         align-items: center;
         gap: .5rem;
         margin-bottom: 1.5rem;
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+        border: 1px solid transparent;
+        color: var(--text-primary);
+
+        &:hover {
+            border: 1px solid var(--surface-disabled);
+        }
+
+        &:focus {
+            border: 1px solid var(--text-primary);
+        }
     }
 
     & h1 {
@@ -35,14 +52,15 @@ aside {
     & .aside-container {
         max-width: 31rem;
 
-        & > img {
-           margin-top: 2rem;
+        &>img {
+            margin-top: 2rem;
         }
     }
 
     & h2 {
         font: 600 2.5rem/1.25 var(--font-family);
         margin-bottom: .5rem;
+
         & span {
             color: var(--text-highlight);
         }
@@ -75,21 +93,21 @@ aside {
 
     aside {
         order: -1;
-        padding: 4rem 1.5rem 1.5rem 1.5rem; 
+        padding: 4rem 1.5rem 1.5rem 1.5rem;
 
         & .aside-container {
 
-            & > header {
+            &>header {
                 text-align: center;
             }
 
             margin-inline: auto;
-    
-            & > img {
+
+            &>img {
                 margin-top: .5rem;
             }
         }
-    
+
 
         & h2 {
             display: none;
@@ -100,5 +118,3 @@ aside {
         }
     }
 }
-
-
